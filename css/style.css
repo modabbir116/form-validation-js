@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main_div{
+    background: #ddd;
+    padding: 30px;
+    margin: 80px auto;
+    width: 350px;
+    font-family: "Roboto", sans-serif;
+}
+.main_div h2{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #111;
+    text-align: center;
+}
+.main_div form{
+   width: 100%;
+}
+.main_div form #lavel{
+   color: #111;
+   font-size: 18px;
+   font-weight: 500;
+   text-transform: capitalize;
+   
+}
+.main_div form input{
+   width: 100%;
+   padding: 10px 15px;
+   border: 2px solid turquoise;
+   outline: none;
+   margin: 10px 0;
+   border-radius: 3px;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   -ms-border-radius: 3px;
+   -o-border-radius: 3px;
+   color: #222;
+   font-size: 16px;
+   font-weight: 500;
+   
+}
+.main_div form input::placeholder{
+    color: rgb(67, 68, 68);
+    font-size: 16px;
+    text-transform: capitalize;
+   
+}
+.main_div form button{
+   width: 100%;
+   padding: 10px 15px;
+   border: none;
+   outline: none;
+   background-color: turquoise;
+   color: #fff;
+   font-size: 22px;
+   text-transform: capitalize;
+   font-weight: 600;
+   cursor: pointer;
+   margin-top: 20px;
+}
+.inputGrpup p{
+    color: red;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 400;
+}
+.inputGrpup{
+    position: relative;
+}
+.passIcon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+  .passIcon i {
+    font-size: 20px;
+    color: #888;
+  }
+
+  .passIcon i:hover {
+    color: #333;
+  }

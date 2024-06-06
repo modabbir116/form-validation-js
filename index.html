@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Validation-js</title>
+    <!-- google fonts link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- google fonts link  -->
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome  -->
+    <!-- css all here  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- css all here  -->
+</head>
+<body>
+
+    <!--=========== form-validaton-js  =================-->
+    <div class="main_div">
+        <h2>form validaton js</h2>
+        <form action="#" method="post">
+            <div class="inputGrpup">
+                <input id="inputName" type="text" placeholder="Your Name">
+                <p id="nameError"></p>
+            </div>
+            <div class="inputGrpup">
+                <input id="email" type="email" placeholder="Your Email">
+                <p id="emailError"></p>
+            </div>
+            <div class="inputGrpup">
+                <input id="password" type="password" placeholder="Your Password">
+                <div class="passIcon">
+                    <i class="fa-regular fa-eye"></i>
+                </div>
+                <p id="passError"></p>
+            </div>
+            <div class="inputGrpup">
+                <input id="conPassword" type="password" placeholder="Your Conform Password">
+                <div class="passIcon">
+                </div>
+                <p id="conPassError"></p>
+            </div>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </div>
+    <!--=========== form-validaton-js  =================-->
+    
+
+    <!-- js all link here -->
+    <script src="./js/main.js"></script>
+    <!-- js all link here -->
+</body>
+</html>
